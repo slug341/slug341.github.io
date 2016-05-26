@@ -1,0 +1,25 @@
+body {
+   min-height: 400px;
+   margin-bottom: 80px;
+   padding:10px;
+   padding-bottom:60px;   /* Height of the footer */
+}
+
+.page-header {
+    margin-top: 0;
+}
+
+.panel-body {
+    padding-top: 0;
+}
+
+#fim {
+    margin-bottom: 15px;
+    height: 100px;
+}
+
+
+
+
+
+

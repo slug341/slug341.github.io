@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Portfolio</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootswatch/3.3.6/readable/bootstrap.min.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+    <style rel="stylesheet" type="text/css" href="css/styles.css"></style>
+</head>
+<body>
+
+    <div class = "navbar navbar-inverse navbar-static-top">
+        <div class = "container">
+        
+            <a href = "#" class = "navbar-brand">Nick Caimi</a>
+            
+            <button class = "navbar-toggle" data-toggle = "collapse" data-target = ".navHeaderCollapse">
+               <span class = "icon-bar"></span>
+               <span class = "icon-bar"></span>
+               <span class = "icon-bar"></span>
+
+            </button>
+            
+            <div class = "collapse navbar-collapse navHeaderCollapse">
+                
+                <ul class = "nav navbar-nav navbar-right">
+                
+                    <li class = "active"><a href = "#"><i class="fa fa-home"></i> Home</a></li>
+                    <li><a href = "workhistory.html"><i class="fa fa-briefcase"></i> Work History</a></li>
+                    <li class = "dropdown">
+                        
+                        <a href = "#" class = "active dropdown-toggle" data-toggle = "dropdown"><i class="fa fa-graduation-cap"></i> School<b class = "caret"></b></a>
+                        <ul class = "dropdown-menu">
+                            <li class = "active"><a href = "highschool.html">High School</a></li>
+                            <li><a href = "futureplans.html">Future Plans</a></li>
+                        </ul>
+                        
+                    </li>
+                    <li><a href = "aboutme.html"><i class="fa fa-male"></i> About Me</a></li>
+                    <li><a href = "#contact" data-toggle= "modal"><i class="fa fa-phone"></i> Contact Us</a></li>
+                </ul>
+            </div>
+            
+        </div>    
+    </div>
+    
+    <div class = "container">
+        
+        <div class = "jumbotron text-center">
+            <h1>Welcome to my Portfolio</h1>
+            <p>My name is Nickolas Caimi, currently I am a senior at highschool. When I graduate in June I look forward to taking computer science classes at Middlesex County College.</p>
+            <a href = "http://slug341.github.io/trivia/trivia.html" target = "_blank" class = "btn btn-default">Trivia Game!</a>
+            <a href = "http://slug341.github.io/madlibs/angular.html" target = "_blank" class = "btn btn-info">Mad Libs!</a>
+        </div>
+        
+    </div>
+    
+    <div class = "container">
+        
+        <div class = "row">
+            
+            <div class = "col-md-4">
+            
+                <h3><a href = "highschool.html">School</a></h3>
+                <p>During Middle and High School I have been extremely interested in the realm of computer sciences. I am currently extremely excited to start on my computer transfer program at college.</p>
+                <a href = "highschool.html" class = "btn btn-default">Read More</a>
+                    
+            </div>
+            
+            <div class = "col-md-4">
+            
+                <h3><a href = "workhistory.html">Work</a></h3>
+                <p>Currently I am a cashier at Shoprite, but this has not stopped me from expanding my knowledge of more and more coding launguages. Most of my free time is spent working on new lessons on <a href = "https://www.codecademy.com/" target = "_blank">codecademy.com</a></p>
+                <a href = "workhistory.html" class = "btn btn-default">Read More</a>
+                    
+            </div>
+            
+            <div class = "col-md-4">
+            
+                <h3><a href = "aboutme.html">About me</a></h3>
+                <p>Throughout highschool my interest in computer science has grown exponetially. I was lucky enough to have the oppurtunity to take two Web Design courses during my senior year. These courses have made it possible for me to create everything I have built. </p>
+                <a href = "aboutme.html" class = "btn btn-default">Read More</a>
+                    
+            </div>
+                    
+            </div>
+            
+        </div>
+        
+
+    
+    
+    <div class = "navbar navbar-default navbar-fixed-bottom">
+        
+        <div class = "container">
+            <p class = "navbar-text pull-left">Site Built By Nickolas Caimi</p>
+        </div>
+        
+    </div>
+    
+    <div class = "modal fade" id = "contact" role= "dialog">
+        <div class = "modal-dialog">
+            <div class = "modal-content">
+                <form class = "form-horizantal">
+                    <div class = "modal-header">
+                        <h4>Contact Me</h4>
+                    </div>
+                    <div class = "modal-body">
+                    
+                        <div class = "form-group">
+                            
+                            <label for = "contact-name" class = "col-lg-2 control-label">Name</label>
+                            <div class = "col-lg-10">
+                                
+                                <input type = "text" class = "form-control" id = "contact-name" placeholder = "Full Name">
+                                
+                            </div>
+                            
+                            <div class = "form-group">
+                            
+                            <label for = "contact-email" class = "col-lg-2 control-label">Email</label>
+                            <div class = "col-lg-10">
+                                
+                                <input type = "email" class = "form-control" id = "contact-email" placeholder = "you@example.com">
+                                
+                            </div>
+                            
+                            <div class = "form-group">
+                            
+                            <label for = "contact-msg" class = "col-lg-2 control-label">Message</label>
+                            <div class = "col-lg-10">
+                                
+                                <textarea class = "form-control" rows = "8"></textarea>
+                                
+                            </div>
+                            
+                            
+                        </div>
+                    
+                    </div>
+                    <div class = "modal-footer">
+                        <a class = "btn btn-default" data-dismiss = "modal">Close</a>
+                        <button class = "btn btn-primary" type "submit">Send</button>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+        
+        
+    
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+</body>
+</html>
